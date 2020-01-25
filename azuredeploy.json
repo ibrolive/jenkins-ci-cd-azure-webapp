@@ -4,7 +4,7 @@
   "parameters": {
     "jenkinsVMAdminUsername": {
       "type": "string",
-      "defaultValue": "templatetest1",
+      "defaultValue": "template-test1",
       "minLength": 1,
       "metadata": {
         "description": "User name for the Jenkins Virtual Machine."
@@ -12,7 +12,7 @@
     },
     "jenkinsVMAdminPassword": {
       "type": "securestring",
-      "defaultValue": "templatetest1",
+      "defaultValue": "template-test1",
       "minLength": 6,
       "metadata": {
         "description": "Password for the Jenkins Virtual Machine."
@@ -20,7 +20,7 @@
     },
     "jenkinsDnsPrefix": {
       "type": "string",
-      "defaultValue": "templatetest1",
+      "defaultValue": "template-test1",
       "minLength": 3,
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Jenkins Virtual Machine."
@@ -40,7 +40,7 @@
     },
     "repositoryUrl": {
       "type": "string",
-      "defaultValue": "https://github.com/Azure/azure-quickstart-templates",
+      "defaultValue": "https://github.com/ibrolive/neo-airlines-jhipster-web-app",
       "minLength": 1,
       "metadata": {
         "description": "GitHub repository URL for the source code."
@@ -48,7 +48,7 @@
     },
     "clientId": {
       "type": "string",
-      "defaultValue": "templatetest1",
+      "defaultValue": "template-test1",
       "minLength": 1,
       "metadata": {
         "description": "Client id for Azure service principal."
@@ -56,7 +56,7 @@
     },
     "clientSecret": {
       "type": "string",
-      "defaultValue": "templatetest1",
+      "defaultValue": "template-test1",
       "minLength": 1,
       "metadata": {
         "description": "Client secret for Azure service principal."
@@ -64,7 +64,7 @@
     },
     "appDnsPrefix": {
       "type": "string",
-      "defaultValue": "templatetest1",
+      "defaultValue": "template-test1",
       "minLength": 3,
       "metadata": {
         "description": "Prefix name for web app components, accepts numbers and letters only."
@@ -72,7 +72,7 @@
     },
     "mySqlAdminLogin": {
       "type": "string",
-      "defaultValue": "templatetest1",
+      "defaultValue": "template-test1",
       "minLength": 3,
       "metadata": {
         "description": "User name for MySQL admin login."
@@ -80,7 +80,7 @@
     },
     "mySqlAdminPassword": {
       "type": "securestring",
-      "defaultValue": "templatetest1",
+      "defaultValue": "template-test1",
       "minLength": 6,
       "metadata": {
         "description": "Password for MySQL admin login."
@@ -88,7 +88,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/jenkins-cicd-webapp",
+      "defaultValue": "https://github.com/ibrolive/emirates-jenkins-ci-cd-azure-webapp",
       "metadata": {
         "description": "The base URI where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
       }
