@@ -199,7 +199,7 @@
     },
     {
       "type": "Microsoft.DBforMySQL/servers",
-      "apiVersion": "2017-04-30-preview",
+      "apiVersion": "2017-12-01",
       "location": "[parameters('location')]",
       "name": "[variables('mySqlServerName')]",
       "properties": {
