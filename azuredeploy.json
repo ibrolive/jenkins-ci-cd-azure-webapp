@@ -209,14 +209,14 @@
         "administratorLoginPassword": "[parameters('mySqlAdminPassword')]"
       },
       "sku": {
-        "name": "MYSQLB50",
+        "name": "B_Gen4_1",
         "tier": "Basic",
         "capacity": 50
       },
       "resources": [
         {
           "type": "firewallrules",
-          "apiVersion": "2017-04-30-preview",
+          "apiVersion": "2017-12-01",
           "location": "[parameters('location')]",
           "name": "[concat(variables('mySqlServerName'),'Firewall')]",
           "dependsOn": [
@@ -230,7 +230,7 @@
         {
           "name": "[variables('mySqlDbName')]",
           "type": "databases",
-          "apiVersion": "2017-04-30-preview",
+          "apiVersion": "2017-12-01",
           "dependsOn": [
             "[resourceId('Microsoft.DBforMySQL/servers', variables('mySqlServerName'))]"
           ],
